@@ -4,3 +4,5 @@ Weather app , By giving City Name it shows you the exact weather of that city
 Here I create a Html Page in which I have an Input field in that I take an input which is any city name and then , by submitting the name , you will get to see the weather condition of that city .
 <br>
 Then i created a css file in which in background i attach an image , and style that page .
+<br>
+In my weather application use OpenWeather API , and call it by fetch inside js , then destructure the json obj and then provide the weather data inside , the input fields of weather condition
