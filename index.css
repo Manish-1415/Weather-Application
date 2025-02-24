@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+}
+
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#318CE7;
+}
+
+.container{
+    height: 28%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px gray , -3px -3px 10px gray;
+}
+
+.applHeading {
+    padding: 8px;
+    padding-left: 40px;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    color: #318CE7;
+}
+
+
+.inpFields{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 3px;
+}
+
+.inpCity{
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.btn{
+    padding: 7px;
+    border: none;
+    background-color: #00BFFF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.7s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: skyblue;
+}
+
+.loc{
+    padding: 7px;
+    border: none;
+    background-color: #00BFFF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.7s;
+}
+
+.loc:hover{
+    transform: scale(1.1);
+    background-color: skyblue;
+}
+
+
+
+
+@media screen and (max-width: 1536px) {
+    .container{
+        height: 32%;
+    }
+}
+        
+  
+@media screen and (max-width:1245px) {
+    .container{
+        height: 33%;
+        width: 20%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+        .container{
+            width: 30%;
+            height: 35%;
+        }  
+} 
+
+@media screen and (max-width: 600px) {
+    .container{
+        height: 35%;
+        width: 40%;
+
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 55%;
+        height: 40%;
+    }
+
+    .inpFields{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .container{
+        height: 35%;
+        width: 70%;
+    }
+}
